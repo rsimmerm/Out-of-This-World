@@ -14,13 +14,14 @@
 		05F7C70A1961D5DC00F553BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C7091961D5DC00F553BA /* main.m */; };
 		05F7C70E1961D5DC00F553BA /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C70D1961D5DC00F553BA /* RSAppDelegate.m */; };
 		05F7C7111961D5DC00F553BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F7C70F1961D5DC00F553BA /* Main.storyboard */; };
-		05F7C7141961D5DC00F553BA /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C7131961D5DC00F553BA /* RSViewController.m */; };
 		05F7C7161961D5DC00F553BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F7C7151961D5DC00F553BA /* Images.xcassets */; };
 		05F7C71D1961D5DC00F553BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F7C71C1961D5DC00F553BA /* XCTest.framework */; };
 		05F7C71E1961D5DC00F553BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F7C6FD1961D5DB00F553BA /* Foundation.framework */; };
 		05F7C71F1961D5DC00F553BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F7C7011961D5DC00F553BA /* UIKit.framework */; };
 		05F7C7271961D5DC00F553BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05F7C7251961D5DC00F553BA /* InfoPlist.strings */; };
 		05F7C7291961D5DC00F553BA /* RSOutofThisWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C7281961D5DC00F553BA /* RSOutofThisWorldTests.m */; };
+		05F7C73A1961DA4200F553BA /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C7391961DA4200F553BA /* OWOuterSpaceTableViewController.m */; };
+		05F7C7811962459000F553BA /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7C7801962459000F553BA /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		05F7C70C1961D5DC00F553BA /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
 		05F7C70D1961D5DC00F553BA /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
 		05F7C7101961D5DC00F553BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05F7C7121961D5DC00F553BA /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
-		05F7C7131961D5DC00F553BA /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		05F7C7151961D5DC00F553BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05F7C71B1961D5DC00F553BA /* RSOutofThisWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSOutofThisWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F7C71C1961D5DC00F553BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		05F7C7241961D5DC00F553BA /* RSOutofThisWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSOutofThisWorldTests-Info.plist"; sourceTree = "<group>"; };
 		05F7C7261961D5DC00F553BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05F7C7281961D5DC00F553BA /* RSOutofThisWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSOutofThisWorldTests.m; sourceTree = "<group>"; };
+		05F7C7381961DA4200F553BA /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWOuterSpaceTableViewController.h; path = ../OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		05F7C7391961DA4200F553BA /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWOuterSpaceTableViewController.m; path = ../OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		05F7C77F1962459000F553BA /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		05F7C7801962459000F553BA /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				05F7C70C1961D5DC00F553BA /* RSAppDelegate.h */,
 				05F7C70D1961D5DC00F553BA /* RSAppDelegate.m */,
 				05F7C70F1961D5DC00F553BA /* Main.storyboard */,
-				05F7C7121961D5DC00F553BA /* RSViewController.h */,
-				05F7C7131961D5DC00F553BA /* RSViewController.m */,
+				05F7C7381961DA4200F553BA /* OWOuterSpaceTableViewController.h */,
+				05F7C7391961DA4200F553BA /* OWOuterSpaceTableViewController.m */,
 				05F7C7151961D5DC00F553BA /* Images.xcassets */,
 				05F7C7041961D5DC00F553BA /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		05F7C7041961D5DC00F553BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05F7C77F1962459000F553BA /* AstronomicalData.h */,
+				05F7C7801962459000F553BA /* AstronomicalData.m */,
 				05F7C7051961D5DC00F553BA /* RSOutofThisWorld-Info.plist */,
 				05F7C7061961D5DC00F553BA /* InfoPlist.strings */,
 				05F7C7091961D5DC00F553BA /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F7C73A1961DA4200F553BA /* OWOuterSpaceTableViewController.m in Sources */,
 				05F7C70A1961D5DC00F553BA /* main.m in Sources */,
 				05F7C70E1961D5DC00F553BA /* RSAppDelegate.m in Sources */,
-				05F7C7141961D5DC00F553BA /* RSViewController.m in Sources */,
+				05F7C7811962459000F553BA /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				05F7C72E1961D5DC00F553BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F7C72F1961D5DC00F553BA /* Build configuration list for PBXNativeTarget "RSOutofThisWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				05F7C7311961D5DC00F553BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

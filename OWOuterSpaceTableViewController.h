@@ -1,5 +1,5 @@
 //
-//  RSViewController.h
+//  OWOuterSpaceTableViewController.h
 //  RSOutofThisWorld
 //
 //  Created by Ross Simmerman on 6/30/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RSViewController : UIViewController
+@interface OWOuterSpaceTableViewController : UITableViewController
+@property  (strong, nonatomic) NSMutableArray *planets;
 
 @end
+
